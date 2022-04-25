@@ -9,8 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ScrollView {
+            LazyVStack(spacing: 10) {
+                ForEach(0...10, id: \.self) { _ in
+                    OneTweetView()
+                }
+            }
+        }
     }
 }
 

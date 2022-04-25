@@ -11,6 +11,11 @@
 		5E9DB46428170FAF007BAA32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DB46328170FAF007BAA32 /* ContentView.swift */; };
 		5E9DB46628170FB9007BAA32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9DB46528170FB9007BAA32 /* Assets.xcassets */; };
 		5E9DB46928170FB9007BAA32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9DB46828170FB9007BAA32 /* Preview Assets.xcassets */; };
+		5E9DB47228171134007BAA32 /* OneTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DB47128171134007BAA32 /* OneTweetView.swift */; };
+		5E9DB4762817182B007BAA32 /* ExploringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DB4752817182B007BAA32 /* ExploringView.swift */; };
+		5E9DB47A2817184E007BAA32 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DB4792817184E007BAA32 /* Notifications.swift */; };
+		5E9DB47D2817186C007BAA32 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DB47C2817186C007BAA32 /* Messages.swift */; };
+		5E9DB4802817187F007BAA32 /* Tab View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DB47F2817187F007BAA32 /* Tab View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		5E9DB46528170FB9007BAA32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E9DB46828170FB9007BAA32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5E9DB46A28170FB9007BAA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9DB47128171134007BAA32 /* OneTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTweetView.swift; sourceTree = "<group>"; };
+		5E9DB4752817182B007BAA32 /* ExploringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploringView.swift; sourceTree = "<group>"; };
+		5E9DB4792817184E007BAA32 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		5E9DB47C2817186C007BAA32 /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		5E9DB47F2817187F007BAA32 /* Tab View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tab View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				5E9DB46128170FAF007BAA32 /* TwitterSwiftUIApp.swift */,
-				5E9DB46328170FAF007BAA32 /* ContentView.swift */,
+				5E9DB47428171801007BAA32 /* Main Views */,
+				5E9DB47128171134007BAA32 /* OneTweetView.swift */,
 				5E9DB46528170FB9007BAA32 /* Assets.xcassets */,
 				5E9DB46A28170FB9007BAA32 /* Info.plist */,
 				5E9DB46728170FB9007BAA32 /* Preview Content */,
@@ -67,6 +78,18 @@
 				5E9DB46828170FB9007BAA32 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E9DB47428171801007BAA32 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E9DB46328170FAF007BAA32 /* ContentView.swift */,
+				5E9DB4752817182B007BAA32 /* ExploringView.swift */,
+				5E9DB4792817184E007BAA32 /* Notifications.swift */,
+				5E9DB47C2817186C007BAA32 /* Messages.swift */,
+				5E9DB47F2817187F007BAA32 /* Tab View.swift */,
+			);
+			path = "Main Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9DB47A2817184E007BAA32 /* Notifications.swift in Sources */,
+				5E9DB47D2817186C007BAA32 /* Messages.swift in Sources */,
 				5E9DB46428170FAF007BAA32 /* ContentView.swift in Sources */,
+				5E9DB4762817182B007BAA32 /* ExploringView.swift in Sources */,
 				5E9DB46228170FAF007BAA32 /* TwitterSwiftUIApp.swift in Sources */,
+				5E9DB47228171134007BAA32 /* OneTweetView.swift in Sources */,
+				5E9DB4802817187F007BAA32 /* Tab View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
