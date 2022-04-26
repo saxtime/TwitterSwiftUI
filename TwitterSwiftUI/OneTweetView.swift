@@ -13,6 +13,7 @@ struct OneTweetView: View {
             HStack(alignment: .top) {
                 Circle()
                     .frame(width: 50, height: 50)
+                    .foregroundColor(.purple)
                 
                 VStack(alignment: .leading, spacing: 3) {
                     HStack {
